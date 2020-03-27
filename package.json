@@ -1,0 +1,30 @@
+{
+  "name": "accountbot",
+  "version": "1.0.0",
+  "description": "Bot to give accounts to your Discord users",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wandal1337/accountbot.git"
+  },
+  "keywords": [
+    "accounts",
+    "discord",
+    "bot"
+  ],
+  "author": "Wandal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wandal1337/accountbot/issues"
+  },
+  "homepage": "https://github.com/Wandal1337/accountbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "tasktimer": "^3.0.0",
+    "underscore": "^1.9.1"
+  }
+}
